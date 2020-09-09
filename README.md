@@ -1,4 +1,4 @@
-<h1 align="center">markshust/docker-magento</h1>
+<h1 align="center">a fork of markshust/docker-magento</h1>
 
 <div align="center">
   <p>Mark Shust's Docker Configuration for Magento</p>
@@ -130,13 +130,13 @@ Run this automated one-liner from the directory you want to install your project
 #### No sample data
 
 ```bash
-curl -s https://raw.githubusercontent.com/markshust/docker-magento/master/lib/onelinesetup | bash -s -- magento2.test 2.4.0
+curl -s https://raw.githubusercontent.com/jeffjarratt/docker-magento/master/lib/onelinesetup | bash -s -- magento2.test 2.4.0
 ```
 
 #### With sample data
 
 ```bash
-curl -s https://raw.githubusercontent.com/markshust/docker-magento/master/lib/onelinesetup | bash -s -- magento2.test with-samples-2.4.0
+curl -s https://raw.githubusercontent.com/jeffjarratt/docker-magento/master/lib/onelinesetup | bash -s -- magento2.test with-samples-2.4.0
 ```
 
 The `magento2.test` above defines the hostname to use, and the `2.4.0` defines the Magento version to install. Note that since we need a write to `/etc/hosts` for DNS resolution, you will be prompted for your system password during setup.
