@@ -55,7 +55,7 @@ bin/clinotty bin/magento setup:install \
   --db-password=$MYSQL_PASSWORD \
   --base-url=https://$BASE_URL/ \
   --base-url-secure=https://$BASE_URL/ \
-  --backend-frontname=admin \
+  # --backend-frontname=admin \            ## Removed to randomize admin url.
   --admin-firstname=John \
   --admin-lastname=Smith \
   --admin-email=john.smith@gmail.com \
