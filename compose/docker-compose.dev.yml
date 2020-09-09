@@ -39,5 +39,5 @@ services:
   #   - "8025:8025"
 
   # Disabling cron by default as it uses higher CPU, enable if needed
-  #cron:
-  #  volumes: *appvolumes
+  cron:
+    volumes: *appvolumes
